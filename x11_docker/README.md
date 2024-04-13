@@ -1,6 +1,6 @@
-# Gazebo Garden docker container
+# X11 Apps docker container
 
-This Docker container runs X11 apps. This might serve a basic example to start testing containers with GUIs capabilities.
+This Docker container runs X11 apps. This might serve a basic example to start testing containers with GUI capabilities.
 
 ## Building the Container
 

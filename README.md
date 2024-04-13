@@ -1,6 +1,6 @@
 # Docker Repository
 
-This repository contains several dockerfiles that allows to create containers with GUI functionalities for different purposes. You can find more information in each of the folders. These containters are mainly intended to be run on WSL 2 - Win 11.
+This repository contains several dockerfiles that allows to create containers with GUI for different purposes. You can find more information in each of the folders. These containters are mainly intended to be run on WSL 2 - Win 11.
 
 ## GUI with Docker
 
@@ -9,7 +9,7 @@ For instructions about how to allow GUI applications, check [Linux GUI apps on t
 
 ## List of dockerfiles
 
-* [xClock example](https://github.com/grep265/Docker/tree/master/xclock_docker)
+* [X11 example](https://github.com/grep265/Docker/tree/master/x11_docker)
 * [ArduPilot SITL](https://github.com/grep265/Docker/tree/master/ardupilot_sitl_docker)
 * [Gazebo Garden](https://github.com/grep265/Docker/tree/master/gazebo_garden_docker)
 * [Gazebo Garden & Ardupilot](https://github.com/grep265/Docker/tree/master/gz_garden_ardupilot_docker)

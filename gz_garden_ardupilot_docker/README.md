@@ -1,6 +1,6 @@
-# Gazebo Garden docker container
+# Gazebo Garden & Ardupilot models docker container
 
-This Docker container runs Gazebo Garden. You can run Gazebo with GUI support inside the container along with Ardupilot models. This method is not recommended as Gazebo will run too slow. It's better to run it on WSL directly instead of inside a container.
+This Docker container runs Gazebo Garden with Ardupilot models. This method is not recommended as Gazebo will run too slow. It's better to run it on WSL directly instead of inside a container.
 
 ## Building the Container
 
