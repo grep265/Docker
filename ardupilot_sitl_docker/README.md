@@ -11,7 +11,7 @@ Clone the Ardupilot repository from GitHub:
 
 ## Building the Container
 
-To build the Docker container, use the provided Dockerfile. Make sure you have Docker installed on your system.Inside the ardupilot folder, replace the Dockerfile with the one that is provided. After, run the following commands:
+To build the Docker container, use the provided Dockerfile. Make sure you have Docker installed on your system. Inside the ardupilot folder, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
    docker build . -t ardupilot-sitl
@@ -22,7 +22,7 @@ To build the Docker container, use the provided Dockerfile. Make sure you have D
 After building the container, you can run it using the following command:
 
 ```bash
-   docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY sitl-ardupilot /bin/bash 
+   docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl /bin/bash 
 ```
 
 ## Running SITL
