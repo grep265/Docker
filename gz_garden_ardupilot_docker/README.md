@@ -7,7 +7,7 @@ This Docker container runs Gazebo Garden with Ardupilot models. This method is n
 Inside the folder where you have the docker file, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
-docker build -t gz-garden-sitl
+docker build -t gz-garden-sitl .
 ```
 
 ## Running the Container

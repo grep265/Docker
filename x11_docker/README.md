@@ -7,7 +7,7 @@ This Docker container runs X11 apps. This might serve a basic example to start t
 Inside the folder where you have the docker file, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
-docker build -t x11
+docker build -t x11 .
 ```
 
 ## Running the Container
