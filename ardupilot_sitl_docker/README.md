@@ -2,14 +2,22 @@
 
 This Docker container runs Ardupilot with SITL (software-in-the-loop). You can compile Ardupilot inside the container and simulate with GUI. 
 
-## Clone ArduPilot container
+## Clone ArduPilot repository
 
-Clone the Ardupilot repository from GitHub:
+Clone the Ardupilot repository:
 ```bash
 git clone https://github.com/ArduPilot/ardupilot.git
 ```
 
-## Building the Container
+## Pre-built image - Docker hub
+
+You can pull the pre-built image:
+
+```bash
+docker pull grep007/ardupilot-sitl-gui:1.0
+```
+
+## Manual build
 
 To build the Docker container, use the provided Dockerfile. Make sure you have Docker installed on your system. Inside the ardupilot folder, replace the Dockerfile with the one that is provided. After, run the following command:
 
@@ -19,7 +27,7 @@ To build the Docker container, use the provided Dockerfile. Make sure you have D
 
 ## Running the Container
 
-After building the container, you can run it using the following command:
+After pulling/building the container and inside the ardupilot folder, you can run the following command:
 
 ```bash
 docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl /bin/bash 

@@ -2,7 +2,15 @@
 
 This Docker container runs X11 apps. This might serve a basic example to start testing containers with GUI capabilities.
 
-## Building the Container
+## Pre-built image - Docker hub
+
+You can pull the pre-built image:
+
+```bash
+docker pull grep007/xclock:latest
+```
+
+## Manual build
 
 Inside the folder where you have the docker file, replace the Dockerfile with the one that is provided. After, run the following command:
 
@@ -12,7 +20,7 @@ docker build -t x11 .
 
 ## Running the Container
 
-After building the container, you can run it using the following command:
+After pulling/building the container, you can run it using the following command:
 
 ```bash
 docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY x11
