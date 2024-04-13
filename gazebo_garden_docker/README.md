@@ -4,7 +4,7 @@ This Docker container runs Gazebo Garden. You can run Gazebo with GUI support in
 
 ## Building the Container
 
-Inside the folder where you have the docker file, replace the Dockerfile with the one that is provided. After, run the following command:
+Inside the folder where you have the Dockerfile, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
 docker build -t gz-garden .
