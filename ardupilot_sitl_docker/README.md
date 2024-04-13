@@ -6,7 +6,7 @@ This Docker container runs Ardupilot with SITL (software-in-the-loop). You can c
 
 Clone the Ardupilot repository from GitHub:
 ```bash
-   git clone https://github.com/ArduPilot/ardupilot.git
+git clone https://github.com/ArduPilot/ardupilot.git
 ```
 
 ## Building the Container
@@ -22,7 +22,7 @@ To build the Docker container, use the provided Dockerfile. Make sure you have D
 After building the container, you can run it using the following command:
 
 ```bash
-   docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl /bin/bash 
+docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl /bin/bash 
 ```
 
 ## Running SITL
@@ -30,7 +30,7 @@ After building the container, you can run it using the following command:
 Run the following command inside the container. Replace the IP address and port with the corresponding one from your GCS.
 
 ```bash
-   sim_vehicle.py -v ArduPlane --map --console -I0 --out=udp:*GCS_IP_ADDRES*:*UDP_PORT*
+sim_vehicle.py -v ArduPlane --map --console -I0 --out=udp:*GCS_IP_ADDRES*:*UDP_PORT*
 ```
 
 ## References
