@@ -18,3 +18,5 @@ After building the container, you can run it using the following command:
 docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY xclock
 ```
 It will automatically display the xclock app
+
+![image](https://github.com/grep265/Docker/assets/81888131/79259ca0-7c12-4b83-90c1-cb5a0d5bcb5b)
