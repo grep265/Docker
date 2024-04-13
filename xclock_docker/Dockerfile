@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 as runtime
+FROM ubuntu:22.04 as runtime
 
 ARG DEBIAN_FRONTEND=noninteractive
 
