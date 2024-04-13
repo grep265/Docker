@@ -1,6 +1,6 @@
 # Xclock Apps docker container
 
-This Docker container runs xclock apps. This might serve a basic example to start testing containers with GUI capabilities.
+This Docker container runs the xclock app. This might serve a basic example to start testing containers with GUI capabilities.
 
 ## Pre-built image - Docker hub
 
