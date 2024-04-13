@@ -30,3 +30,4 @@ or open an example
 ```bash
    gz sim shapes.sdf --render-engine ogre
 ```
+![Shapes-gazebo-docker](https://github.com/grep265/Docker/assets/81888131/21008acb-9ffd-4f20-b03e-88e36c9ec8ef)
