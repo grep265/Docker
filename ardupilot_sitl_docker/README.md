@@ -27,11 +27,20 @@ docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$
 
 ## Running SITL
 
-Run the following command inside the container. Replace the IP address and port with the corresponding one from your GCS.
+Run the following command inside the container. Replace the IP address and port with the corresponding one from your GCS. For example:
 
 ```bash
+cd ardupilot/ArduPlane
 sim_vehicle.py -v ArduPlane --map --console -I0 --out=udp:*GCS_IP_ADDRES*:*UDP_PORT*
 ```
+
+![image](https://github.com/grep265/Docker/assets/81888131/70c1735f-5fff-4cc5-b4aa-db3bdf0142a6)
+
+![image](https://github.com/grep265/Docker/assets/81888131/1f644a94-84c5-42a3-98de-796d5687cb7c)
+
+![image](https://github.com/grep265/Docker/assets/81888131/fda6e606-65c7-492b-90f7-a9a41ec1582c)
+
+
 
 ## References
 
