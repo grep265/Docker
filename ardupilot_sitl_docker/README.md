@@ -22,7 +22,7 @@ docker pull grep007/ardupilot-sitl-gui:1.0
 To build the Docker container, use the provided Dockerfile. Make sure you have Docker installed on your system. Inside the ardupilot folder, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
-   docker build . -t ardupilot-sitl
+   docker build . -t ardupilot-sitl-gui
 ```
 
 ## Running the Container
@@ -30,7 +30,7 @@ To build the Docker container, use the provided Dockerfile. Make sure you have D
 After pulling/building the container and inside the ardupilot folder, you can run the following command:
 
 ```bash
-docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl /bin/bash 
+docker run -it -v `pwd`:/ardupilot -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY ardupilot-sitl-gui /bin/bash 
 ```
 
 ## Running SITL
