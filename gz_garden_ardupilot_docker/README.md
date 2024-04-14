@@ -25,7 +25,7 @@ Inside the container, you can open Gazebo using the following command:
 For example:
 
 ```bash
-gz gz sim -v4 -r iris_runway.sdf --render-engine ogre
+gz sim -v4 -r iris_runway.sdf --render-engine ogre
 ```
 For more models, you can refer to [Ardupilot Gazebo](https://github.com/ArduPilot/ardupilot_gazebo)
 
