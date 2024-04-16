@@ -39,3 +39,4 @@ or open an example
 gz sim shapes.sdf --render-engine ogre
 ```
 
+![image](https://github.com/grep265/Docker/assets/81888131/a432034c-82f6-46b3-9684-24dde0c3a2cd)
