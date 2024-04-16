@@ -15,7 +15,7 @@ docker pull grep007/gazebo:garden
 Inside the folder where you have the Dockerfile, replace the Dockerfile with the one that is provided. After, run the following command:
 
 ```bash
-docker build -t gz-garden .
+docker build -t gazebo:garden .
 ```
 
 ## Running the Container
@@ -23,7 +23,7 @@ docker build -t gz-garden .
 After building the container, you can run it using the following command:
 
 ```bash
-docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY gz-garden
+docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY gazebo:garden
 ```
 
 ## Running Gazebo Simulator
