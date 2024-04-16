@@ -1,6 +1,14 @@
 # Gazebo Garden docker container
 
-This Docker container runs Gazebo Garden. You can run Gazebo with GUI support inside the container. 
+This Docker container runs Gazebo Garden. You can run Gazebo with GUI support inside the container.
+
+## Pre-built image - Docker hub
+
+You can pull the pre-built image:
+
+```bash
+docker pull grep007/gazebo:garden
+```
 
 ## Building the Container
 
