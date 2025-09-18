@@ -38,8 +38,3 @@ gz sim -v4 -r zephyr_runway.sdf --render-engine ogre
 For more models, you can refer to [Ardupilot Gazebo](https://github.com/ArduPilot/ardupilot_gazebo)
 
 ![image](https://github.com/grep265/Docker/assets/81888131/d4cfdcac-e1cc-4aa1-8848-3e4737de3bfa)
-
-## References
-
-This file is based on the ArduPilot Dockerfile, but it was modified to allow GUI capabilities and a reduction in its size.
-[ArduPilot](https://github.com/ArduPilot/ardupilot.git)
