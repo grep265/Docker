@@ -30,8 +30,3 @@ gz sim -v4 -r iris_runway.sdf --render-engine ogre
 For more models, you can refer to [Ardupilot Gazebo](https://github.com/ArduPilot/ardupilot_gazebo)
 
 ![image](https://github.com/grep265/Docker/assets/81888131/1e0829a3-5380-49ac-81e8-5b9894d9ebe4)
-
-## References
-
-This file is based on the ArduPilot Dockerfile, but it was modified to allow GUI capabilities and a reduction in its size.
-[ArduPilot](https://github.com/ArduPilot/ardupilot.git)
